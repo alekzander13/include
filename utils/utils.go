@@ -49,8 +49,7 @@ func AddToLog(name string, info interface{}) {
 	}
 	defer f.Close()
 
-	now := time.Now()
-	date := fmt.Sprintf("%02d.%02d.%02d %02d:%02d:%02d:%02d", now.Day(), now.Month(), now.Year(), now.Hour(), now.Minute(), now.Second(), now.Nanosecond()) + " "
+	date := time.Now().Local().Format("02.01.06 15:12:47 ")
 
 	fmt.Fprintln(f, date, info)
 }
