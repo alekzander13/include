@@ -49,7 +49,7 @@ func AddToLog(name string, info interface{}) {
 	}
 	defer f.Close()
 
-	date := time.Now().Local().Format("02.01.06 15:12:47 ")
+	date := time.Now().Local().Format("02.01.06 15:04:05 ")
 
 	fmt.Fprintln(f, date, info)
 }
