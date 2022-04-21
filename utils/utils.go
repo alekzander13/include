@@ -133,14 +133,14 @@ func makeSlicePort(s []string) ([]string, error) {
 
 func Formatdatetime(datetime time.Time, withtime bool) string {
 	if withtime {
-		return fmt.Sprintf("%02d.%02d.%02d %02d:%02d.%02d", datetime.Day(), datetime.Month(), datetime.Year(), datetime.Hour(), datetime.Minute(), datetime.Second())
+		return datetime.Format("02.01.06 15:04.05")
 	}
-	return fmt.Sprintf("%02d.%02d.%02d", datetime.Day(), datetime.Month(), datetime.Year())
+	return datetime.Format("02.01.06")
 }
 
 //Gpspathdate Формат для каталогов ЖПС данных 2019_12_21
 func Gpspathdate(datetime time.Time) string {
-	return fmt.Sprintf("%02d_%02d_%02d", datetime.Year(), datetime.Month(), datetime.Day())
+	return datetime.Format("02_01_06")
 }
 
 //toFixedFloat округление до кол-ва после запятой
