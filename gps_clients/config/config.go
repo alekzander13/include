@@ -26,7 +26,7 @@ func setstandartconfig() {
 	Config.MinSatel = 4
 }
 
-func readconfig(fileName string) error {
+func ReadConfig(fileName string) error {
 	ok, err := utils.Exists(fileName)
 	if err != nil {
 		return err
