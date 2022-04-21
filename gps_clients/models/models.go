@@ -137,7 +137,7 @@ type ChkParams struct {
 }
 
 type ProtocolModel struct {
-	input  []byte
+	Input  []byte
 	Path   string
 	ChkPar ChkParams
 	GPS    GPSInfo
