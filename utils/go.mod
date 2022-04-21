@@ -1,3 +1,3 @@
-module gps_clients/include/utils
+module utils
 
 go 1.18
