@@ -1,4 +1,4 @@
-module gps_clients/include/gps_clients/models
+module github.com/alekzander13/include/gps_clients/models
 
 go 1.18
 

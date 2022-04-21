@@ -1,4 +1,4 @@
-module gps_clients/include/gps_clients/config
+module github.com/alekzander13/include/gps_clients/config
 
 go 1.18
 
