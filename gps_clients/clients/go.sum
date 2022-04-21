@@ -1,0 +1,4 @@
+github.com/alekzander13/include/gps_clients/models v0.0.0-20220421203554-d93b75d92885 h1:GhQDbRDs3E0xXmGTfwIIMUFA0l4U880zjnQzd/VbbRc=
+github.com/alekzander13/include/gps_clients/models v0.0.0-20220421203554-d93b75d92885/go.mod h1:U6jB96lyGRVwfHBIMbjAvmbXY+2hTSJG0PIA8FyPXMM=
+github.com/alekzander13/include/utils v0.0.0-20220421204137-c5291fb3c87e h1:ANhuPXFe2VuKsIXetd92GjUQr/kmS8Fzi6RubZ8n9dU=
+github.com/alekzander13/include/utils v0.0.0-20220421204137-c5291fb3c87e/go.mod h1:rU/2LzbBpPXY+BaXgq1BJqZbntiNz+2sUfcp3QbUJcA=
